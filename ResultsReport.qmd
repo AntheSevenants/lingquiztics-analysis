@@ -1,0 +1,56 @@
+---
+df-print: kable
+execute:
+  echo: false
+---
+
+```{r initialisation}
+#| output: false
+source("analysis.R")
+```
+
+```{r}
+scoreboard %>% kable(row.names=TRUE)
+```
+
+### In MUST We Trust
+
+```{r}
+personal_top(teams[[1]]) %>% kable(row.names=TRUE)
+```
+
+### Kaminsky Kanpai
+
+```{r}
+personal_top(teams[[2]]) %>% kable(row.names=TRUE)
+```
+
+### The variation constellation
+
+```{r}
+personal_top(teams[[3]]) %>% kable(row.names=TRUE)
+```
+
+### The Long Lunch Committee
+
+```{r}
+personal_top(teams[[4]]) %>% kable(row.names=TRUE)
+```
+
+### Vettige Sjwa en de diminutiefjes
+
+```{r}
+personal_top(teams[[5]]) %>% kable(row.names=TRUE)
+```
+
+### Die van Campus Brussel
+
+```{r}
+personal_top(teams[[6]]) %>% kable(row.names=TRUE)
+```
+
+### Error 404
+
+```{r}
+personal_top(teams[[7]]) %>% kable(row.names=TRUE)
+```
